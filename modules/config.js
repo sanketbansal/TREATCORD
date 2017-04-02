@@ -1,0 +1,49 @@
+var app=angular.module( 'myapp', ['ngMaterial','ngRoute'] )
+app.config(function($routeProvider,$mdDialogProvider){
+$routeProvider
+.when('/',{
+})
+.when('/open/personaldetail',{
+  templateUrl:'/views/html/open_personal_detail.tmpl.html',
+  controller:'open_data'
+})
+.when('/open/diagnosis',{
+  templateUrl:'/views/html/open_diagnosis.tmpl.html',
+  controller:'open_data'
+})
+.when('/open/medicines',{
+  templateUrl:'/views/html/open_medicines.tmpl.html',
+  controller:'open_data'
+})
+.when('/update/personaldetail',{
+  templateUrl:'/views/html/update_personal_detail.tmpl.html',
+  controller:'update_data'
+})
+.when('/update/diagnosis',{
+  templateUrl:'/views/html/update_diagnosis.tmpl.html',
+  controller:'update_data'
+})
+.when('/update/medicines',{
+  templateUrl:'/views/html/update_medicines.tmpl.html',
+  controller:'update_data'
+})
+.when('/add/personaldetail',{
+  templateUrl:'/views/html/add_personal_detail.tmpl.html',
+  controller:'add_data'
+})
+.when('/add/diagnosis',{
+  templateUrl:'/views/html/add_diagnosis.tmpl.html',
+  controller:'add_data'
+})
+.when('/add/medicines',{
+  templateUrl:'/views/html/add_medicines.tmpl.html',
+  controller:'add_data'
+})
+.otherwise({
+  template:"hello"
+})
+
+    $mdDialogProvider.addPreset('preset',{
+      hasBackdrop:true
+   })
+})

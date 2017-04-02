@@ -1,0 +1,17 @@
+{
+  "name": "treatcord",
+  "version": "1.0.0",
+  "description": "pateint record management system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}

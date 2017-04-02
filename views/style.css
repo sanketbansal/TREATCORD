@@ -1,0 +1,150 @@
+
+body{
+margin:0px !important;
+position:relative !important
+}
+#toolbar{
+    margin:0px !important;
+     position:relative !important;
+    /*background-color: skyblue;*/
+}
+#toolbar_account_icon{
+    font-size:48px !important;
+    margin:0px;
+    min-height:50px
+}
+
+#toolbar div2{
+    margin-left:25px
+}
+#toolbar_search_container{
+    margin:0px !important;
+    padding:0px !important;
+    border-radius:25px;
+}
+#toolbar_search_container span{
+     margin-left:12px;
+}
+#toolbar_search_container input{
+     margin:8px;
+     margin-left:2px;
+     border-radius:10px;
+}
+#toolbar_search_button
+ {
+    padding:0px !important;
+    min-width:40px !important;
+}
+
+#content{
+   /* position:relative !important*/
+}
+  
+ #content_card {
+     margin-top:4% !important;
+     position:relative !important;
+     right:4%;
+     min-height:15% !important;
+}
+ 
+
+
+.content_card_div{
+    width:100%;
+    word-wrap:break-word;
+    
+}
+ .content_card_div div2{
+     border-left-style:solid;
+     border-left-color:lightgrey;
+     position:absolute !important;
+     left:32%;
+     bottom:0%;
+     
+ }
+
+
+ #open_new_button{
+     position:absolute !important;
+     margin:0px !important;
+     padding:0px !important;
+     right:0px;
+     top:0px 
+ }
+ #delete{
+     position:absolute !important;
+     margin:0px !important;
+     padding:0px !important;
+     right:0px;
+     bottom:0px
+ }
+
+#content_toolbar_card{
+    margin-bottom:0px !important;
+    margin-left:0px !important;
+    margin-right:0px !important;
+    height:5%;
+    max-height:40px;
+    position:relative;
+}
+#content_open_button{
+    font-size:13px;
+    font-weight:bold;
+    /*max-height:10px !important;*/
+    height:100% !important;
+    min-height:1px!important;
+    margin:0px !important;
+    position:absolute;
+}
+
+#content_update_button{
+  
+   font-size:13px;
+   font-weight:bold;
+   /*max-height:10px !important;*/
+   height:100% !important;
+   min-height:1px!important;
+   margin:0px !important;
+   position:absolute;
+   right:0%
+}
+
+
+#add_button{
+    min-width:40px !important;
+    min-height:40px !important;
+    position:absolute!important;
+    bottom:5%;
+    right:3% !important;
+    padding:0px !important;
+}
+
+#dialog{
+    height:100%;
+    width:100%;
+    overflow:auto
+}
+#dialog_toolbar{
+    background-color: orange;
+    margin:0px;
+}
+#dialog_toolbar button{
+    position:relative;
+    margin:0px;
+    padding:0px;
+    max-height:15%
+}
+#dialog_navbar{
+    font-weight:bold;
+    /*height:100%*/
+}
+
+#dialog_navbar div{
+    border-style: none;
+}
+
+#dialog_card{
+
+    overflow-y:auto;
+    position:relative
+}

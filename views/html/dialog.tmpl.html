@@ -1,0 +1,18 @@
+<md-dialog id="dialog" flex="grow" layout="column">
+    <md-toolbar id="dialog_toolbar" flex="7" layout="row" layout-margin layout-align="space between"> 
+
+        <md-button  class="md-primary" flex="5">
+            <md-icon class="material-icons" aria-label="backward">arrow_back</md-icon>
+            <md-tooltip md-direction="right" md-autohide>back</md-tooltip>
+        </md-button>
+
+        <md-nav-bar id="dialog_navbar" flex="95" md-selected-nav-item="personal_details" layout="row" layout-align="end end">
+           <md-nav-item  md-nav-href={{route[0]}} flex="34" name="personal_details" aria-label="personal_details">PERSONAL DETAILS</md-nav-item>
+           <md-nav-item  md-nav-href={{route[1]}} flex="34" name="diagnosis" aria-label="diagnosis">DIAGNOSIS</md-nav-item>
+           <md-nav-item  md-nav-href={{route[2]}} flex="34" name="medicines" aria-label="medicines">MEDICINES</md-nav-item>
+        </md-nav-bar>
+        
+    </md-toolbar>
+    <div id="dialog_card" flex="93" layout="column" ng-view></div>
+</md-dialog>
+
